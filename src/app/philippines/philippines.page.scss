@@ -1,0 +1,42 @@
+ion-menu-button {
+    color: #D2DE32;
+    margin-left: 1.5%;
+}
+
+ion-title.tb {
+    --ion-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #D2DE32;
+}
+
+ion-content.background{
+    --ion-background-color: #FFFFDD;
+}
+
+#imgflag {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+img.phstartbg {
+    border-radius: 6px;
+}
+
+h3 {
+    text-shadow: 1px 2px 5px gray;
+}
+
+p {
+    line-height: 1.5rem;
+    text-indent: 8%;
+    
+  }
+
+ion-card.background {
+    color: white;
+}
+
+ion-card-content {
+    text-indent: 1.5rem;
+}

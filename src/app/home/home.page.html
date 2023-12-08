@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons>
+      <ion-menu-button></ion-menu-button>
+      <ion-title class="tb">
+        <b>Home</b>
+      </ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background ion-padding">
+  <h1 class="ion-text-center">
+    <b class="tbcolor">Travel Asia</b>
+  </h1>
+
+  <swiper-container
+  #swiper
+  (afterinit)="swiperReady()"
+  (slidechange)="swiperSlideChanged($event)"
+    [loop]="true"
+    [pagination]="true"
+    [zoom]="true"
+    >
+    <swiper-slide *ngFor="let image of images">
+      <div class="swiper-zoom-container">
+      <img [src]="image" alt="img">
+      </div>
+    </swiper-slide>
+  </swiper-container>
+
+  <p class="ion-text-justify ion-margin">"Hey Buddy! No matter wether you are a traveler or not! But there's one thing that I can sure of... you want a vacation, take time to meditate, unwind and enjoy your life right? Well, this Travel Site is perfect for you! The Travel Buddy could lead you to the best tourist spots that you fit in, and I can assure that your time will not be wasted. Otherwise, I will help you to have memories that you will never forget.
+  </p>
+  <p class="ion-text-justify ion-margin">
+  Travel Asia could help you to choose the best places in Asia that you want to go in. With Travel Asia, everything you need to do — will go easy. Yes! you're right! I will assist you! So, what are you waiting for? Come on! Tap the menu button above and choose the Best Country and we will serve you the most beautiful destination you are looking for! Take your time buddy, enjoy!
+  </p>
+  <ion-button routerLink="/philippines" color="medyogreen" class="ion-margin">
+    <b>Explore</b>
+  </ion-button>
+</ion-content>
+

@@ -1,0 +1,7 @@
+{
+  "name": "TravelAsia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

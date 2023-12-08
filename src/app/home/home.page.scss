@@ -1,0 +1,91 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: lucida calligraphy;
+  font-size: 3rem;
+  text-shadow: 2px 5px 10px black;
+  background: rgba(0, 0, 0, 0.7);
+  outline-style: solid;
+  outline-color: #A2C579;
+  outline-width: 3px;
+}
+
+ion-title.tb {
+  --ion-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #D2DE32;
+}
+
+.tbcolor {
+  color: #FFFFDD;
+}
+
+ion-content.background{
+  --ion-background-color: #FFFFDD;
+}
+
+p {
+  line-height: 1.5rem;
+  text-indent: 8%;
+}
+
+ion-menu-button {
+  color: #D2DE32;
+  margin-left: 1.5%;
+}
+
+ion-toolbar {
+  outline-style: solid;
+  outline-color: #272727;
+  outline-width: 1px;
+}
+
+p {
+  --ion-font-family: Acme, sans-serif;
+}
+
+swiper-container {
+  width: 100%;
+  height: 50%;
+}
+
+swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+swiper-container {
+  --swiper-pagination-bullet-inactive-color: var(--ion-color-step-200, #A2C579);
+  --swiper-pagination-color: var(--ion-color-bg, #016A70);
+  --swiper-pagination-progressbar-bg-color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.25);
+  --swiper-scrollbar-bg-color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.1);
+  --swiper-scrollbar-drag-bg-color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.5);
+}
+
